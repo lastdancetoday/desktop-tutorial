@@ -30,6 +30,3 @@ $sth->execute(array('FIO' => $new_FIO, 'address' => $new_address, 'email' => $ne
  }
  }
  ?>
-
-</body>
-</html>
