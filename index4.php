@@ -6,11 +6,7 @@ require_once('head.php');
 require_once('forms/form_add_zay.php'); 
 ?>
 <?php
-if (isset($_GET['add'])) 
-{ 
-    $new_FIO = htmlspecialchars($_POST['FIO']); 
-    $new_email = htmlspecialchars($_POST['email']); 
-    $new_address = htmlspecialchars($_POST['address']); 
+ac
     $new_phone = htmlspecialchars($_POST['phone']); 
     $new_opis = htmlspecialchars($_POST['opis']); 
  	$date1 = date('Y-m-d');
